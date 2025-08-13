@@ -7,7 +7,7 @@ $ nix eval --file playground.nix
 次の option のとき
 
 ```nix
-{ name = lib.mkOption { type = lib.types.listOf lib.types.str; }; }
+{ name = lib.mkOption { type = lib.types.str; }; }
 ```
 
 ### config に値がないとき
